@@ -32,6 +32,7 @@ These entities are highly scalable and support future app requirements such as c
 
 # 🔗 Entity Relationship Diagram (ASCII ERD)
 
+```
 +---------+ +-------------+ +----------------+
 | users | 1 ∞ | stories | 1 ∞ | story_versions |
 +---------+----------+-------------+-----------+----------------+
@@ -47,7 +48,7 @@ These entities are highly scalable and support future app requirements such as c
 | +-----------------+
 | | metadata |
 | +-----------------+
-
+```
 
 
 This shows:  
