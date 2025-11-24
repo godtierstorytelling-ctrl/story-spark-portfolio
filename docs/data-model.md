@@ -85,16 +85,16 @@ This enables a user to maintain multiple stories over time.
 **Purpose:** Top-level container for any single story project.
 
 stories
-
-id (uuid, primary key)
-user_id (uuid, foreign key → users.id)
-title (text)
-logline (text)
-genre (text)
-created_at (timestamp)
-updated_at (timestamp)
-is_complete (boolean)
-active_version_id (uuid, nullable)
+-------
+id                  uuid (primary key)
+user_id             uuid (foreign key → users.id)
+title               text
+logline             text
+genre               text
+created_at          timestamp
+updated_at          timestamp
+is_complete         boolean
+active_version_id   uuid (nullable)
 
 
 Examples of what gets stored here:
