@@ -84,6 +84,7 @@ This enables a user to maintain multiple stories over time.
 
 **Purpose:** Top-level container for any single story project.
 
+```sql
 stories
 -------
 id                  uuid (primary key)
@@ -96,6 +97,7 @@ updated_at          timestamp
 is_complete         boolean
 active_version_id   uuid (nullable)
 
+```
 
 Examples of what gets stored here:
 - high-level metadata  
