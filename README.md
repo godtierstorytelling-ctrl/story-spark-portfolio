@@ -28,19 +28,6 @@ All of these components together simulate a lightweight “app” experience ins
 
 ---
 
-# Story Spark (god-Tier Storytelling)
-
-Short intro paragraph...
-
-## 🌟 Overview
-High-level description...
-
-## 🚀 Features
-- 5-module guided flow
-- Modular architecture
-- Future-ready design
-- etc...
-
 ## 📚 Documentation Index
 1. [App Vision](docs/01-app-vision.md)
 2. [User Journey](docs/02-user-journey.md)
