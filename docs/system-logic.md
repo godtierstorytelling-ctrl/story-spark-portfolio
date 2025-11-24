@@ -92,53 +92,43 @@ Each call updates the state by:
 
 ---
 
-# 🔒 3. Redirect Logic (redirect-logic.js)
+# 🔒 3. Redirect Logic (`redirect-logic.js`)
 
-Redirect logic ensures Story Spark stays focused on storytelling by intercepting:
+Redirect logic ensures Story Spark stays focused on **storytelling** by intercepting:
 
-business questions
+- business questions  
+- legal issues  
+- mental health topics  
+- coding/programming  
+- finance  
+- anything outside the narrative domain  
 
-legal issues
+### How redirect logic works
 
-mental health topics
+1. The user enters a message  
+2. The system checks if it contains off-topic or disallowed content  
+3. If yes → Story Spark returns a **redirect message** and does *not* pass the input to the module  
+4. If no → the input continues into the active module
 
-coding/programming
-
-finance
-
-anything outside the narrative domain
-
-How redirect logic works:
-
-The user enters a message
-
-The system checks if it contains banned topics
-
-If yes → Story Spark returns a redirect message and does not pass the input to the module
-
-If no → the input continues into the active module
-
-Redirect flow diagram:
+### Redirect flow diagram:
 
 User Input
-   ↓
+↓
 Redirect Logic Check?
-   │
-   ├── Yes → respond with redirect message, stop module
-   ↓
-   └── No → pass input to current module
+│
+├── Yes → respond with redirect message, halt module
+↓
+└── No → pass input to current module
 
-Redirect messages rotate through a set of variations to keep the experience warm and human.
 
-Why this matters:
+Redirect messages rotate through a set of variations to keep the experience warm and conversational.
 
-Keeps interactions on mission
+### Why this matters
 
-Protects the GPT system from drifting
-
-Reflects real-world safety and domain guardrails
-
-Ensures every module receives valid inputs
+- Keeps interactions on mission  
+- Protects the GPT system from drifting  
+- Reflects real-world safety and domain guardrails  
+- Ensures every module receives valid inputs  
 
 ---
 
