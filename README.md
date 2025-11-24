@@ -29,16 +29,26 @@ All of these components together simulate a lightweight “app” experience ins
 ---
 
 ## 📚 Documentation Index
+
+### 🔰 Product & UX
 1. [App Vision](docs/01-app-vision.md)
 2. [User Journey](docs/02-user-journey.md)
+
+### 🧱 Architecture & Flow
 3. [Architecture Overview](docs/03-architecture-overview.md)
 4. [Module Flow](docs/04-module-flow.md)
 5. [Pseudocode Overview](docs/05-pseudocode-overview.md)
 6. [Technical Decisions](docs/06-technical-decisions.md)
+
+### 🔧 System Behavior & Data
 7. [System Logic](docs/07-system-logic.md)
 8. [Data Model](docs/08-data-model.md)
+
+### 🚀 Growth & Extensions
 9. [Future Roadmap](docs/09-future-roadmap.md)
 10. [Prompts Overview](docs/10-prompts-overview.md)
+
+### 🤝 Collaboration
 11. [Contributing](docs/11-contributing.md)
 
 ---
