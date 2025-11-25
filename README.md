@@ -207,12 +207,12 @@ All of these behaviors come from the prompt logic stored in this repository.
 
 Even though the current version is built inside ChatGPT, having a GitHub repo:
 
-* Shows your technical workflow
+* Shows my technical workflow
 * Demonstrates structured AI development skills
 * Documents architecture and feature logic
 * Provides a foundation for future engineers/collaborators
 * Serves as a portfolio artifact
-* Makes your prototype tangible and transparent
+* Makes my prototype tangible and transparent
 
 This is a professional and increasingly common way to document GPT-based app development.
 
