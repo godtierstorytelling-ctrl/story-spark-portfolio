@@ -1,6 +1,6 @@
 # **README.md**
 
-# **god-Tier Story Spark (Prototype)**
+# **god-Tier Story Spark GPT (Prototype)**
 
 *A modular, GPT-powered story-development assistant built for god-Tier Storytelling University.*
 
