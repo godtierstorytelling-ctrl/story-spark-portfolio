@@ -4,7 +4,7 @@
 
 *A modular, GPT-powered story-development assistant built for god-Tier Storytelling University.*
 
-The **god-Tier Story Spark** app is an early-stage, conversational story-development tool that guides writers through a structured 5-module workflow: Idea Spark, World Seed, Character Forge, Plot Skeleton, and Wordsmith Lab. It uses a combination of structured prompt files, modular instructions, redirect logic, and controlled output formats to take users from raw idea to a story skeleton in about an hour.
+The **god-Tier Story Spark** GPT is an early-stage, conversational story-development tool that guides writers through a structured 5-module workflow: Idea Spark, World Seed, Character Forge, Plot Skeleton, and Wordsmith Lab. It uses a combination of structured prompt files, modular instructions, redirect logic, and controlled output formats to take users from raw idea to a story skeleton in about an hour.
 
 This repository contains the **prompt logic**, **module scripts**, **instruction sets**, and **supporting files** used to build the prototype inside ChatGPT and to scaffold the future no-code / low-code app version.
 
